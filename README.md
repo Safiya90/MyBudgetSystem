@@ -27,11 +27,11 @@ This system aims to assist users in understanding their tax liability status wit
 
 | **Name**            | **Role**           |
 |---------------------|--------------------|
-| **Kauthar Alhashmi**    | Backend Member     |
-| Bashayeir Alrhabi   | Backend Member     |
-| Halima Alhatmi      | Backend Member     |
-| Omar Albalushi      | Backend Member     |
-| Asala Alsalhi       | Backend Member     |
+| **Kauthar Alhashmi**    | Frontend Member     |
+| Bashayeir Alrhabi   | Frontend Member     |
+| Halima Alhatmi      | Frontend Member     |
+| Omar Albalushi      | Frontend Member     |
+| Asala Alsalhi       | Frontend Member     |
 
 ---
 
