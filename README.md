@@ -1,6 +1,8 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a9d4707f-0565-48c1-bcdc-353b8e5f6851" alt="logodark" width="250"  />
+  <img src="https://github.com/user-attachments/assets/f176e035-9fd8-4ce6-8fec-43035caa36b2" alt="logodark" width="250" />
 </p>
+
+
 
 # 💰 My Budget "ميزانيتي"
 
@@ -26,11 +28,11 @@ This system aims to assist users in understanding their tax liability status wit
 
 | **Name**            | **Role**           |
 |---------------------|--------------------|
-| **Kauthar Alhashmi**    | Backend Member     |
-| Bashayeir Alrhabi   | Backend Member     |
-| Halima Alhatmi      | Backend Member     |
-| Omar Albalushi      | Backend Member     |
-| Asala Alsalhi       | Backend Member     |
+| **Kauthar Alhashmi**    | Frontend Member     |
+| Bashayeir Alrhabi   | Frontend Member     |
+| Halima Alhatmi      | Frontend Member     |
+| Omar Albalushi      | Frontend Member     |
+| Asala Alsalhi       | Frontend Member     |
 
 ---
 
