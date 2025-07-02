@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyBudget.DAL.Models
+namespace MyBudget.BLL.DTOs
 {
-    public abstract class BaseEntity
+    public class RecordTaxDto
     {
-        public string Id { get; set; }
     }
 }
-    
