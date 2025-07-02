@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using MyBudget.BLL.DTOs;
@@ -49,8 +50,54 @@ namespace MyBudgetAPI.Controllers
 
             return Ok("User registered successfully.");
         }
-    }
 
+
+
+        //for login 
+        [HttpPost("login")]
+        public async Task<IActionResult> Login([FromBody]  LoginDto model)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var user = await _userManager.FindByEmailAsync(model.Email);
+            if (user == null)
+                return Unauthorized("Invalid login attempt");
+
+            // if user account is locked 
+            if (await _userManager.IsLockedOutAsync(user))
+                return Unauthorized("Your account is locked. Please try again later.");
+
+            var result = await _signInManager.PasswordSignInAsync(
+                model.Email,
+                model.Password,
+                model.RememberMe,
+                lockoutOnFailure: true  // system will let you try few times then it will lock 
+            );
+
+            if (!result.Succeeded)
+                return Unauthorized("Invalid login attempt");
+
+            return Ok("User logged in successfully");
+        }
+
+
+
+        //logout 
+
+        [HttpPost("logout")]
+        [Authorize]  // you should be login to do  logout
+        public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();  // delete the cookies and stop the session 
+
+            return Ok("Logged out successfully");
+        }
+
+
+
+
+    }
 
 }
 

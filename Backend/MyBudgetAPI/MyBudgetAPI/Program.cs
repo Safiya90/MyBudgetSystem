@@ -37,15 +37,16 @@ namespace MyBudgetAPI
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>(
                options =>
                {
-                   // Password settings
+                   options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromHours(1); // 1 hr
+                   options.Lockout.MaxFailedAccessAttempts = 5; // 5 tries 
+                   options.Lockout.AllowedForNewUsers = true;  // lock it if 5 times wrong password 
+
+                   // password setting )
                    options.Password.RequireDigit = true;
-                   options.Password.RequiredLength = 6;
-                   options.Password.RequireNonAlphanumeric = false;
+                   options.Password.RequiredLength = 8;
+                   options.Password.RequireNonAlphanumeric = true;
                    options.Password.RequireUppercase = true;
                    options.Password.RequireLowercase = true;
-                   // Lockout settings
-                   //options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
-                   //options.Lockout.MaxFailedAccessAttempts = 5;
                    // User settings
                    options.User.RequireUniqueEmail = true;
                }
