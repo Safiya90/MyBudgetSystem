@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a9d4707f-0565-48c1-bcdc-353b8e5f6851" alt="logodark" width="250"  />
+  <img src="https://github.com/user-attachments/assets/08821905-8e0f-444f-8ded-830541eb29a3" alt="logodark" width="250" />
 </p>
+
 
 # 💰 My Budget "ميزانيتي"
 
