@@ -1,97 +1,101 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4C6C747-3876-4BF4-A902-8B8912E81297}|MyBudgetAPI\\MyBudgetAPI.csproj|c:\\users\\user pc\\onedrive\\desktop\\asp.net core projects\\mybudgetsystem\\backend\\mybudgetapi\\mybudgetapi\\controllers\\incomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4C6C747-3876-4BF4-A902-8B8912E81297}|MyBudgetAPI\\MyBudgetAPI.csproj|solutionrelative:mybudgetapi\\controllers\\incomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4C6C747-3876-4BF4-A902-8B8912E81297}|MyBudgetAPI\\MyBudgetAPI.csproj|c:\\users\\user pc\\onedrive\\desktop\\asp.net core projects\\mybudgetsystem\\backend\\mybudgetapi\\mybudgetapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D4C6C747-3876-4BF4-A902-8B8912E81297}|MyBudgetAPI\\MyBudgetAPI.csproj|c:\\users\\user pc\\desktop\\mybudgetsystem\\backend\\mybudgetapi\\mybudgetapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4C6C747-3876-4BF4-A902-8B8912E81297}|MyBudgetAPI\\MyBudgetAPI.csproj|solutionrelative:mybudgetapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4C6C747-3876-4BF4-A902-8B8912E81297}|MyBudgetAPI\\MyBudgetAPI.csproj|c:\\users\\user pc\\onedrive\\desktop\\asp.net core projects\\mybudgetsystem\\backend\\mybudgetapi\\mybudgetapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D4C6C747-3876-4BF4-A902-8B8912E81297}|MyBudgetAPI\\MyBudgetAPI.csproj|c:\\users\\user pc\\desktop\\mybudgetsystem\\backend\\mybudgetapi\\mybudgetapi\\controllers\\taxrecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C6C747-3876-4BF4-A902-8B8912E81297}|MyBudgetAPI\\MyBudgetAPI.csproj|solutionrelative:mybudgetapi\\controllers\\taxrecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C6C747-3876-4BF4-A902-8B8912E81297}|MyBudgetAPI\\MyBudgetAPI.csproj|c:\\users\\user pc\\desktop\\mybudgetsystem\\backend\\mybudgetapi\\mybudgetapi\\controllers\\incomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C6C747-3876-4BF4-A902-8B8912E81297}|MyBudgetAPI\\MyBudgetAPI.csproj|solutionrelative:mybudgetapi\\controllers\\incomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C6C747-3876-4BF4-A902-8B8912E81297}|MyBudgetAPI\\MyBudgetAPI.csproj|c:\\users\\user pc\\desktop\\mybudgetsystem\\backend\\mybudgetapi\\mybudgetapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4C6C747-3876-4BF4-A902-8B8912E81297}|MyBudgetAPI\\MyBudgetAPI.csproj|solutionrelative:mybudgetapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0B9BE33-D121-439F-A6DF-79969EB41683}|MyBudget.BLL\\MyBudget.BLL.csproj|c:\\users\\user pc\\onedrive\\desktop\\asp.net core projects\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.bll\\mybudget.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{D0B9BE33-D121-439F-A6DF-79969EB41683}|MyBudget.BLL\\MyBudget.BLL.csproj|c:\\users\\user pc\\desktop\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.bll\\mybudget.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{D0B9BE33-D121-439F-A6DF-79969EB41683}|MyBudget.BLL\\MyBudget.BLL.csproj|solutionrelative:mybudget.bll\\mybudget.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73FFD111-CB41-4A03-AF90-DAA79BDCEC24}|MyBudget.DAL\\MyBudget.DAL.csproj|c:\\users\\user pc\\onedrive\\desktop\\asp.net core projects\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.dal\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{73FFD111-CB41-4A03-AF90-DAA79BDCEC24}|MyBudget.DAL\\MyBudget.DAL.csproj|c:\\users\\user pc\\desktop\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.dal\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73FFD111-CB41-4A03-AF90-DAA79BDCEC24}|MyBudget.DAL\\MyBudget.DAL.csproj|solutionrelative:mybudget.dal\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73FFD111-CB41-4A03-AF90-DAA79BDCEC24}|MyBudget.DAL\\MyBudget.DAL.csproj|c:\\users\\user pc\\onedrive\\desktop\\asp.net core projects\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.dal\\models\\income.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{73FFD111-CB41-4A03-AF90-DAA79BDCEC24}|MyBudget.DAL\\MyBudget.DAL.csproj|c:\\users\\user pc\\desktop\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.dal\\models\\income.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73FFD111-CB41-4A03-AF90-DAA79BDCEC24}|MyBudget.DAL\\MyBudget.DAL.csproj|solutionrelative:mybudget.dal\\models\\income.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0B9BE33-D121-439F-A6DF-79969EB41683}|MyBudget.BLL\\MyBudget.BLL.csproj|c:\\users\\user pc\\onedrive\\desktop\\asp.net core projects\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.bll\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0B9BE33-D121-439F-A6DF-79969EB41683}|MyBudget.BLL\\MyBudget.BLL.csproj|c:\\users\\user pc\\desktop\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.bll\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0B9BE33-D121-439F-A6DF-79969EB41683}|MyBudget.BLL\\MyBudget.BLL.csproj|solutionrelative:mybudget.bll\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0B9BE33-D121-439F-A6DF-79969EB41683}|MyBudget.BLL\\MyBudget.BLL.csproj|c:\\users\\user pc\\onedrive\\desktop\\asp.net core projects\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.bll\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0B9BE33-D121-439F-A6DF-79969EB41683}|MyBudget.BLL\\MyBudget.BLL.csproj|c:\\users\\user pc\\desktop\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.bll\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0B9BE33-D121-439F-A6DF-79969EB41683}|MyBudget.BLL\\MyBudget.BLL.csproj|solutionrelative:mybudget.bll\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73FFD111-CB41-4A03-AF90-DAA79BDCEC24}|MyBudget.DAL\\MyBudget.DAL.csproj|c:\\users\\user pc\\onedrive\\desktop\\asp.net core projects\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.dal\\configuration\\incomeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{73FFD111-CB41-4A03-AF90-DAA79BDCEC24}|MyBudget.DAL\\MyBudget.DAL.csproj|c:\\users\\user pc\\desktop\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.dal\\configuration\\incomeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73FFD111-CB41-4A03-AF90-DAA79BDCEC24}|MyBudget.DAL\\MyBudget.DAL.csproj|solutionrelative:mybudget.dal\\configuration\\incomeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4C6C747-3876-4BF4-A902-8B8912E81297}|MyBudgetAPI\\MyBudgetAPI.csproj|c:\\users\\user pc\\onedrive\\desktop\\asp.net core projects\\mybudgetsystem\\backend\\mybudgetapi\\mybudgetapi\\controllers\\expensecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D4C6C747-3876-4BF4-A902-8B8912E81297}|MyBudgetAPI\\MyBudgetAPI.csproj|c:\\users\\user pc\\desktop\\mybudgetsystem\\backend\\mybudgetapi\\mybudgetapi\\controllers\\expensecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4C6C747-3876-4BF4-A902-8B8912E81297}|MyBudgetAPI\\MyBudgetAPI.csproj|solutionrelative:mybudgetapi\\controllers\\expensecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0B9BE33-D121-439F-A6DF-79969EB41683}|MyBudget.BLL\\MyBudget.BLL.csproj|c:\\users\\user pc\\onedrive\\desktop\\asp.net core projects\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.bll\\mappings\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0B9BE33-D121-439F-A6DF-79969EB41683}|MyBudget.BLL\\MyBudget.BLL.csproj|c:\\users\\user pc\\desktop\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.bll\\mappings\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0B9BE33-D121-439F-A6DF-79969EB41683}|MyBudget.BLL\\MyBudget.BLL.csproj|solutionrelative:mybudget.bll\\mappings\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73FFD111-CB41-4A03-AF90-DAA79BDCEC24}|MyBudget.DAL\\MyBudget.DAL.csproj|c:\\users\\user pc\\onedrive\\desktop\\asp.net core projects\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.dal\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{73FFD111-CB41-4A03-AF90-DAA79BDCEC24}|MyBudget.DAL\\MyBudget.DAL.csproj|c:\\users\\user pc\\desktop\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.dal\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73FFD111-CB41-4A03-AF90-DAA79BDCEC24}|MyBudget.DAL\\MyBudget.DAL.csproj|solutionrelative:mybudget.dal\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0B9BE33-D121-439F-A6DF-79969EB41683}|MyBudget.BLL\\MyBudget.BLL.csproj|c:\\users\\user pc\\onedrive\\desktop\\asp.net core projects\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.bll\\repository\\expenserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0B9BE33-D121-439F-A6DF-79969EB41683}|MyBudget.BLL\\MyBudget.BLL.csproj|c:\\users\\user pc\\desktop\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.bll\\repository\\expenserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0B9BE33-D121-439F-A6DF-79969EB41683}|MyBudget.BLL\\MyBudget.BLL.csproj|solutionrelative:mybudget.bll\\repository\\expenserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0B9BE33-D121-439F-A6DF-79969EB41683}|MyBudget.BLL\\MyBudget.BLL.csproj|c:\\users\\user pc\\onedrive\\desktop\\asp.net core projects\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.bll\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0B9BE33-D121-439F-A6DF-79969EB41683}|MyBudget.BLL\\MyBudget.BLL.csproj|c:\\users\\user pc\\desktop\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.bll\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0B9BE33-D121-439F-A6DF-79969EB41683}|MyBudget.BLL\\MyBudget.BLL.csproj|solutionrelative:mybudget.bll\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0B9BE33-D121-439F-A6DF-79969EB41683}|MyBudget.BLL\\MyBudget.BLL.csproj|c:\\users\\user pc\\onedrive\\desktop\\asp.net core projects\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.bll\\repository\\incomerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0B9BE33-D121-439F-A6DF-79969EB41683}|MyBudget.BLL\\MyBudget.BLL.csproj|c:\\users\\user pc\\desktop\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.bll\\repository\\incomerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0B9BE33-D121-439F-A6DF-79969EB41683}|MyBudget.BLL\\MyBudget.BLL.csproj|solutionrelative:mybudget.bll\\repository\\incomerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0B9BE33-D121-439F-A6DF-79969EB41683}|MyBudget.BLL\\MyBudget.BLL.csproj|c:\\users\\user pc\\onedrive\\desktop\\asp.net core projects\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.bll\\interface\\iexpenserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0B9BE33-D121-439F-A6DF-79969EB41683}|MyBudget.BLL\\MyBudget.BLL.csproj|c:\\users\\user pc\\desktop\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.bll\\interface\\iexpenserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0B9BE33-D121-439F-A6DF-79969EB41683}|MyBudget.BLL\\MyBudget.BLL.csproj|solutionrelative:mybudget.bll\\interface\\iexpenserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0B9BE33-D121-439F-A6DF-79969EB41683}|MyBudget.BLL\\MyBudget.BLL.csproj|c:\\users\\user pc\\onedrive\\desktop\\asp.net core projects\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.bll\\interface\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0B9BE33-D121-439F-A6DF-79969EB41683}|MyBudget.BLL\\MyBudget.BLL.csproj|c:\\users\\user pc\\desktop\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.bll\\interface\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0B9BE33-D121-439F-A6DF-79969EB41683}|MyBudget.BLL\\MyBudget.BLL.csproj|solutionrelative:mybudget.bll\\interface\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0B9BE33-D121-439F-A6DF-79969EB41683}|MyBudget.BLL\\MyBudget.BLL.csproj|c:\\users\\user pc\\onedrive\\desktop\\asp.net core projects\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.bll\\interface\\iincomerpository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0B9BE33-D121-439F-A6DF-79969EB41683}|MyBudget.BLL\\MyBudget.BLL.csproj|c:\\users\\user pc\\desktop\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.bll\\interface\\iincomerpository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0B9BE33-D121-439F-A6DF-79969EB41683}|MyBudget.BLL\\MyBudget.BLL.csproj|solutionrelative:mybudget.bll\\interface\\iincomerpository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73FFD111-CB41-4A03-AF90-DAA79BDCEC24}|MyBudget.DAL\\MyBudget.DAL.csproj|c:\\users\\user pc\\onedrive\\desktop\\asp.net core projects\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.dal\\configuration\\expenseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{73FFD111-CB41-4A03-AF90-DAA79BDCEC24}|MyBudget.DAL\\MyBudget.DAL.csproj|c:\\users\\user pc\\desktop\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.dal\\configuration\\expenseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73FFD111-CB41-4A03-AF90-DAA79BDCEC24}|MyBudget.DAL\\MyBudget.DAL.csproj|solutionrelative:mybudget.dal\\configuration\\expenseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73FFD111-CB41-4A03-AF90-DAA79BDCEC24}|MyBudget.DAL\\MyBudget.DAL.csproj|c:\\users\\user pc\\onedrive\\desktop\\asp.net core projects\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.dal\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{73FFD111-CB41-4A03-AF90-DAA79BDCEC24}|MyBudget.DAL\\MyBudget.DAL.csproj|c:\\users\\user pc\\desktop\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.dal\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73FFD111-CB41-4A03-AF90-DAA79BDCEC24}|MyBudget.DAL\\MyBudget.DAL.csproj|solutionrelative:mybudget.dal\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73FFD111-CB41-4A03-AF90-DAA79BDCEC24}|MyBudget.DAL\\MyBudget.DAL.csproj|c:\\users\\user pc\\onedrive\\desktop\\asp.net core projects\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.dal\\configuration\\taxrecordconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{73FFD111-CB41-4A03-AF90-DAA79BDCEC24}|MyBudget.DAL\\MyBudget.DAL.csproj|c:\\users\\user pc\\desktop\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.dal\\configuration\\taxrecordconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73FFD111-CB41-4A03-AF90-DAA79BDCEC24}|MyBudget.DAL\\MyBudget.DAL.csproj|solutionrelative:mybudget.dal\\configuration\\taxrecordconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73FFD111-CB41-4A03-AF90-DAA79BDCEC24}|MyBudget.DAL\\MyBudget.DAL.csproj|c:\\users\\user pc\\onedrive\\desktop\\asp.net core projects\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.dal\\mybudget.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{73FFD111-CB41-4A03-AF90-DAA79BDCEC24}|MyBudget.DAL\\MyBudget.DAL.csproj|c:\\users\\user pc\\desktop\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.dal\\mybudget.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{73FFD111-CB41-4A03-AF90-DAA79BDCEC24}|MyBudget.DAL\\MyBudget.DAL.csproj|solutionrelative:mybudget.dal\\mybudget.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73FFD111-CB41-4A03-AF90-DAA79BDCEC24}|MyBudget.DAL\\MyBudget.DAL.csproj|c:\\users\\user pc\\onedrive\\desktop\\asp.net core projects\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.dal\\migrations\\20250702103147_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{73FFD111-CB41-4A03-AF90-DAA79BDCEC24}|MyBudget.DAL\\MyBudget.DAL.csproj|c:\\users\\user pc\\desktop\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.dal\\migrations\\20250702103147_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73FFD111-CB41-4A03-AF90-DAA79BDCEC24}|MyBudget.DAL\\MyBudget.DAL.csproj|solutionrelative:mybudget.dal\\migrations\\20250702103147_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -102,15 +106,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "TaxRecordController.cs",
+              "DocumentMoniker": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\Controllers\\TaxRecordController.cs",
+              "RelativeDocumentMoniker": "MyBudgetAPI\\Controllers\\TaxRecordController.cs",
+              "ToolTip": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\Controllers\\TaxRecordController.cs",
+              "RelativeToolTip": "MyBudgetAPI\\Controllers\\TaxRecordController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T13:59:04.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "IncomeController.cs",
-              "DocumentMoniker": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\Controllers\\IncomeController.cs",
+              "DocumentMoniker": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\Controllers\\IncomeController.cs",
               "RelativeDocumentMoniker": "MyBudgetAPI\\Controllers\\IncomeController.cs",
-              "ToolTip": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\Controllers\\IncomeController.cs",
+              "ToolTip": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\Controllers\\IncomeController.cs",
               "RelativeToolTip": "MyBudgetAPI\\Controllers\\IncomeController.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAowBoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -119,36 +140,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RegisterDto.cs",
-              "DocumentMoniker": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\DTOs\\RegisterDto.cs",
-              "RelativeDocumentMoniker": "MyBudget.BLL\\DTOs\\RegisterDto.cs",
-              "ToolTip": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\DTOs\\RegisterDto.cs",
-              "RelativeToolTip": "MyBudget.BLL\\DTOs\\RegisterDto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T11:56:07.831Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\Controllers\\AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "MyBudgetAPI\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\Controllers\\AuthController.cs",
               "RelativeToolTip": "MyBudgetAPI\\Controllers\\AuthController.cs",
               "ViewState": "AgIAADkAAAAAAAAAAIAywEoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T11:37:11.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T11:37:11.681Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ExpenseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\Repository\\ExpenseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\Repository\\ExpenseRepository.cs",
               "RelativeDocumentMoniker": "MyBudget.BLL\\Repository\\ExpenseRepository.cs",
-              "ToolTip": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\Repository\\ExpenseRepository.cs",
+              "ToolTip": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\Repository\\ExpenseRepository.cs",
               "RelativeToolTip": "MyBudget.BLL\\Repository\\ExpenseRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -156,11 +164,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MyBudget.BLL.csproj",
-              "DocumentMoniker": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\MyBudget.BLL.csproj",
+              "DocumentMoniker": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\MyBudget.BLL.csproj",
               "RelativeDocumentMoniker": "MyBudget.BLL\\MyBudget.BLL.csproj",
-              "ToolTip": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\MyBudget.BLL.csproj",
+              "ToolTip": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\MyBudget.BLL.csproj",
               "RelativeToolTip": "MyBudget.BLL\\MyBudget.BLL.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -168,11 +176,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\Models\\BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\Models\\BaseEntity.cs",
               "RelativeDocumentMoniker": "MyBudget.DAL\\Models\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\Models\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\Models\\BaseEntity.cs",
               "RelativeToolTip": "MyBudget.DAL\\Models\\BaseEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -180,11 +188,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\Program.cs",
+              "RelativeDocumentMoniker": "MyBudgetAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\Program.cs",
+              "RelativeToolTip": "MyBudgetAPI\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB8AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T09:09:23.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "MyBudget.BLL\\DTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "MyBudget.BLL\\DTOs\\RegisterDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T11:56:07.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Income.cs",
-              "DocumentMoniker": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\Models\\Income.cs",
+              "DocumentMoniker": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\Models\\Income.cs",
               "RelativeDocumentMoniker": "MyBudget.DAL\\Models\\Income.cs",
-              "ToolTip": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\Models\\Income.cs",
+              "ToolTip": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\Models\\Income.cs",
               "RelativeToolTip": "MyBudget.DAL\\Models\\Income.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAgwA8AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -192,24 +225,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\Program.cs",
-              "RelativeDocumentMoniker": "MyBudgetAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\Program.cs",
-              "RelativeToolTip": "MyBudgetAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T09:09:23.339Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "LoginDto.cs",
-              "DocumentMoniker": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\DTOs\\LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\DTOs\\LoginDto.cs",
               "RelativeDocumentMoniker": "MyBudget.BLL\\DTOs\\LoginDto.cs",
-              "ToolTip": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\DTOs\\LoginDto.cs",
               "RelativeToolTip": "MyBudget.BLL\\DTOs\\LoginDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -217,11 +237,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "IncomeConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\Configuration\\IncomeConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\Configuration\\IncomeConfiguration.cs",
               "RelativeDocumentMoniker": "MyBudget.DAL\\Configuration\\IncomeConfiguration.cs",
-              "ToolTip": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\Configuration\\IncomeConfiguration.cs",
+              "ToolTip": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\Configuration\\IncomeConfiguration.cs",
               "RelativeToolTip": "MyBudget.DAL\\Configuration\\IncomeConfiguration.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAIwB8AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -229,11 +249,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "AutoMapperProfile.cs",
-              "DocumentMoniker": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\Mappings\\AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\Mappings\\AutoMapperProfile.cs",
               "RelativeDocumentMoniker": "MyBudget.BLL\\Mappings\\AutoMapperProfile.cs",
-              "ToolTip": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\Mappings\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\Mappings\\AutoMapperProfile.cs",
               "RelativeToolTip": "MyBudget.BLL\\Mappings\\AutoMapperProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAmwAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -241,11 +261,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ExpenseController.cs",
-              "DocumentMoniker": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\Controllers\\ExpenseController.cs",
+              "DocumentMoniker": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\Controllers\\ExpenseController.cs",
               "RelativeDocumentMoniker": "MyBudgetAPI\\Controllers\\ExpenseController.cs",
-              "ToolTip": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\Controllers\\ExpenseController.cs",
+              "ToolTip": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\Controllers\\ExpenseController.cs",
               "RelativeToolTip": "MyBudgetAPI\\Controllers\\ExpenseController.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAowB4AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -253,11 +273,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\Context\\ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\Context\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "MyBudget.DAL\\Context\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\Context\\ApplicationDbContext.cs",
               "RelativeToolTip": "MyBudget.DAL\\Context\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -265,11 +285,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\Repository\\GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\Repository\\GenericRepository.cs",
               "RelativeDocumentMoniker": "MyBudget.BLL\\Repository\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\Repository\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\Repository\\GenericRepository.cs",
               "RelativeToolTip": "MyBudget.BLL\\Repository\\GenericRepository.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAgwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -277,11 +297,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "IncomeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\Repository\\IncomeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\Repository\\IncomeRepository.cs",
               "RelativeDocumentMoniker": "MyBudget.BLL\\Repository\\IncomeRepository.cs",
-              "ToolTip": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\Repository\\IncomeRepository.cs",
+              "ToolTip": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\Repository\\IncomeRepository.cs",
               "RelativeToolTip": "MyBudget.BLL\\Repository\\IncomeRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -289,11 +309,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "IExpenseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\Interface\\IExpenseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\Interface\\IExpenseRepository.cs",
               "RelativeDocumentMoniker": "MyBudget.BLL\\Interface\\IExpenseRepository.cs",
-              "ToolTip": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\Interface\\IExpenseRepository.cs",
+              "ToolTip": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\Interface\\IExpenseRepository.cs",
               "RelativeToolTip": "MyBudget.BLL\\Interface\\IExpenseRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -301,11 +321,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\Interface\\IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\Interface\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "MyBudget.BLL\\Interface\\IGenericRepository.cs",
-              "ToolTip": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\Interface\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\Interface\\IGenericRepository.cs",
               "RelativeToolTip": "MyBudget.BLL\\Interface\\IGenericRepository.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -313,11 +333,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "IIncomeRpository.cs",
-              "DocumentMoniker": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\Interface\\IIncomeRpository.cs",
+              "DocumentMoniker": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\Interface\\IIncomeRpository.cs",
               "RelativeDocumentMoniker": "MyBudget.BLL\\Interface\\IIncomeRpository.cs",
-              "ToolTip": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\Interface\\IIncomeRpository.cs",
+              "ToolTip": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\Interface\\IIncomeRpository.cs",
               "RelativeToolTip": "MyBudget.BLL\\Interface\\IIncomeRpository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -325,11 +345,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ExpenseConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\Configuration\\ExpenseConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\Configuration\\ExpenseConfiguration.cs",
               "RelativeDocumentMoniker": "MyBudget.DAL\\Configuration\\ExpenseConfiguration.cs",
-              "ToolTip": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\Configuration\\ExpenseConfiguration.cs",
+              "ToolTip": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\Configuration\\ExpenseConfiguration.cs",
               "RelativeToolTip": "MyBudget.DAL\\Configuration\\ExpenseConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -337,11 +357,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Expense.cs",
-              "DocumentMoniker": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\Models\\Expense.cs",
+              "DocumentMoniker": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\Models\\Expense.cs",
               "RelativeDocumentMoniker": "MyBudget.DAL\\Models\\Expense.cs",
-              "ToolTip": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\Models\\Expense.cs",
+              "ToolTip": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\Models\\Expense.cs",
               "RelativeToolTip": "MyBudget.DAL\\Models\\Expense.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -349,11 +369,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "TaxRecordConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\Configuration\\TaxRecordConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\Configuration\\TaxRecordConfiguration.cs",
               "RelativeDocumentMoniker": "MyBudget.DAL\\Configuration\\TaxRecordConfiguration.cs",
-              "ToolTip": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\Configuration\\TaxRecordConfiguration.cs",
+              "ToolTip": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\Configuration\\TaxRecordConfiguration.cs",
               "RelativeToolTip": "MyBudget.DAL\\Configuration\\TaxRecordConfiguration.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAowCAAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -361,11 +381,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "MyBudget.DAL.csproj",
-              "DocumentMoniker": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\MyBudget.DAL.csproj",
+              "DocumentMoniker": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\MyBudget.DAL.csproj",
               "RelativeDocumentMoniker": "MyBudget.DAL\\MyBudget.DAL.csproj",
-              "ToolTip": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\MyBudget.DAL.csproj",
+              "ToolTip": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\MyBudget.DAL.csproj",
               "RelativeToolTip": "MyBudget.DAL\\MyBudget.DAL.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -373,11 +393,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "20250702103147_InitialMigration.cs",
-              "DocumentMoniker": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\Migrations\\20250702103147_InitialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\Migrations\\20250702103147_InitialMigration.cs",
               "RelativeDocumentMoniker": "MyBudget.DAL\\Migrations\\20250702103147_InitialMigration.cs",
-              "ToolTip": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\Migrations\\20250702103147_InitialMigration.cs",
+              "ToolTip": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\Migrations\\20250702103147_InitialMigration.cs",
               "RelativeToolTip": "MyBudget.DAL\\Migrations\\20250702103147_InitialMigration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

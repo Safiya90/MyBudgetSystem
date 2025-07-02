@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\MyBudgetAPI.csproj": {}
+    "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\MyBudgetAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\MyBudget.BLL.csproj": {
+    "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\MyBudget.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\MyBudget.BLL.csproj",
+        "projectUniqueName": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\MyBudget.BLL.csproj",
         "projectName": "MyBudget.BLL",
-        "projectPath": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\MyBudget.BLL.csproj",
+        "projectPath": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\MyBudget.BLL.csproj",
         "packagesPath": "C:\\Users\\USER PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\obj\\",
+        "outputPath": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\MyBudget.DAL.csproj": {
-                "projectPath": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\MyBudget.DAL.csproj"
+              "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\MyBudget.DAL.csproj": {
+                "projectPath": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\MyBudget.DAL.csproj"
               }
             }
           }
@@ -79,14 +79,14 @@
         }
       }
     },
-    "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\MyBudget.DAL.csproj": {
+    "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\MyBudget.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\MyBudget.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\MyBudget.DAL.csproj",
         "projectName": "MyBudget.DAL",
-        "projectPath": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\MyBudget.DAL.csproj",
+        "projectPath": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\MyBudget.DAL.csproj",
         "packagesPath": "C:\\Users\\USER PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\obj\\",
+        "outputPath": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -162,14 +162,14 @@
         }
       }
     },
-    "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\MyBudgetAPI.csproj": {
+    "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\MyBudgetAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\MyBudgetAPI.csproj",
+        "projectUniqueName": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\MyBudgetAPI.csproj",
         "projectName": "MyBudgetAPI",
-        "projectPath": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\MyBudgetAPI.csproj",
+        "projectPath": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\MyBudgetAPI.csproj",
         "packagesPath": "C:\\Users\\USER PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\obj\\",
+        "outputPath": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -190,8 +190,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\MyBudget.BLL.csproj": {
-                "projectPath": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\MyBudget.BLL.csproj"
+              "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\MyBudget.BLL.csproj": {
+                "projectPath": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\MyBudget.BLL.csproj"
               }
             }
           }

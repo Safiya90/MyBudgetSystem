@@ -5155,11 +5155,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\MyBudgetAPI.csproj",
+      "projectUniqueName": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\MyBudgetAPI.csproj",
       "projectName": "MyBudgetAPI",
-      "projectPath": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\MyBudgetAPI.csproj",
+      "projectPath": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\MyBudgetAPI.csproj",
       "packagesPath": "C:\\Users\\USER PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\obj\\",
+      "outputPath": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5180,8 +5180,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\MyBudget.BLL.csproj": {
-              "projectPath": "C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\MyBudget.BLL.csproj"
+            "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\MyBudget.BLL.csproj": {
+              "projectPath": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\MyBudget.BLL.csproj"
             }
           }
         }
@@ -5247,13 +5247,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\USER PC\\OneDrive\\Desktop\\ASP.NET Core Projects\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
