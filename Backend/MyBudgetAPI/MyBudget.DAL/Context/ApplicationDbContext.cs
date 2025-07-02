@@ -1,6 +1,7 @@
 ﻿using System.Reflection;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using MyBudgetAPI.Models;
 
 namespace MyBudgetAPI.Context
 {
@@ -17,10 +18,10 @@ namespace MyBudgetAPI.Context
 
         }
         // DbSet properties for your entities go here, e.g.:
-        // public DbSet<User> Users { get; set; }
-        // public DbSet<Income> Incomes { get; set; }
-        // public DbSet<Expense> Expenses { get; set; }
-        // public DbSet<TaxRecord> TaxRecords { get; set; }
+        public DbSet<ApplicationUser> Users { get; set; }
+        public DbSet<Income> Incomes { get; set; }
+        public DbSet<Expense> Expenses { get; set; }
+        public DbSet<TaxRecord> TaxRecords { get; set; }
     }
     
 }

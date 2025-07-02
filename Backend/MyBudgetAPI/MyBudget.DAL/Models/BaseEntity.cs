@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyBudget.DAL.Models
 {
-    public class BaseEntity
+    public abstract class BaseEntity
     {
         public string id { get; set; }
     }
