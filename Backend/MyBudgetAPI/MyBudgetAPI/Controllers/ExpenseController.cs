@@ -46,7 +46,7 @@ namespace MyBudgetAPI.Controllers
         public async Task<IActionResult> CreateExpense([FromBody] Expense expense)
         {
             await _expenseRepository.AddAsync(expense);
-            return CreatedAtAction(nameof(GetExpense), new { id = expense.id }, expense);
+            return CreatedAtAction(nameof(GetExpense), new { id = expense.Id }, expense);
         }
 
         // PUT: api/Expense/{id}
@@ -54,7 +54,7 @@ namespace MyBudgetAPI.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateExpense(string id, [FromBody] Expense expense)
         {
-            if (id != expense.id)
+            if (id != expense.Id)
             {
                 return BadRequest("ID in URL does not match ID in body.");
             }
