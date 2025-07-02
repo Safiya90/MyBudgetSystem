@@ -23,17 +23,6 @@ This system aims to assist users in understanding their tax liability status wit
 
 ## 🎨 Frontend Team
 
-| **Name**            | **Role**            |
-|---------------------|---------------------|
-| **Kauthar Alhashmi**    | Frontend Leader     |
-| Iman Alzadjali      | Frontend Member     |
-| Anwaar Alzadjali    | Frontend Member     |
-| Khawla Alharthi     | Frontend Member     |
-| Dhiyaa Alnadabi     | Frontend Member     |
-
----
-
-## 🛠️ Backend Team A
 
 | **Name**            | **Role**           |
 |---------------------|--------------------|
@@ -45,7 +34,7 @@ This system aims to assist users in understanding their tax liability status wit
 
 ---
 
-## 🛠️ Backend Team B
+## 🛠️ Backend Team 
 
 | **Name**                 | **Role**          |
 |--------------------------|-------------------|
