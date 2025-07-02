@@ -1,0 +1,219 @@
+
+  <!-- Hero Section -->
+
+
+  <section class="hero">
+    <div class="hero-content">
+      <img src="/imgs/hand.png" alt="Thumbs Up Left"/>
+      <div class="hero-title">
+        <h1>My Dashboard</h1>
+        <p>Get an overview of your finances at a glance,<br>
+           including your income, expenses, and tax summary<br>
+           all in one place.</p>
+      </div>
+      <img src="/imgs/hand2.png" alt="Thumbs Up Right" />
+    </div>
+  </section>
+  <!-- Main Dashboard Cards -->
+  <section class="dashboard-cards">
+    <div class="cards-container">
+      <!-- Income Card -->
+      <div class="card" [class.active]="showIncomeForm">
+        <div class="card-header" (click)="toggleIncomeForm()">
+          <div class="card-icon">
+           <img src="/imgs/dash1.png" alt="">
+          </div>
+          <div class="card-content">
+            <h3>Income</h3>
+            <p>Track all your earnings in one place, including salary, business revenue, and other sources of income.</p>
+          </div>
+        </div>
+        
+        <!-- Income Form -->
+        <div class="form-container" *ngIf="showIncomeForm">
+          <form (ngSubmit)="onAddIncome()" #incomeFormRef="ngForm">
+            <div class="form-group">
+              <input 
+                type="text" 
+                placeholder="Title" 
+                [(ngModel)]="incomeForm.title" 
+                name="title"
+                required>
+            </div>
+            <div class="form-group">
+              <input 
+                type="number" 
+                placeholder="Amount" 
+                [(ngModel)]="incomeForm.amount" 
+                name="amount"
+                required>
+            </div>
+            <div class="form-group">
+              <input 
+                type="text" 
+                placeholder="Source" 
+                [(ngModel)]="incomeForm.source" 
+                name="source"
+                required>
+            </div>
+            <div class="form-group">
+              <textarea 
+                placeholder="Note" 
+                [(ngModel)]="incomeForm.note" 
+                name="note"
+                rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn-submit" [disabled]="!incomeFormRef.form.valid">
+              Add Income
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Expenses Card -->
+      <div class="card" [class.active]="showExpensesForm">
+        <div class="card-header" (click)="toggleExpensesForm()">
+          <div class="card-icon">
+             <img src="/imgs/dash2.png" alt="">
+          </div>
+          <div class="card-content">
+            <h3>Expenses</h3>
+            <p>Record and categorize your spending to see where your money goes and manage your budget effectively.</p>
+          </div>
+        </div>
+
+        <!-- Expenses Form -->
+        <div class="form-container" *ngIf="showExpensesForm">
+          <form (ngSubmit)="onAddExpenses()" #expensesFormRef="ngForm">
+            <div class="form-group">
+              <input 
+                type="text" 
+                placeholder="Title" 
+                [(ngModel)]="expensesForm.title" 
+                name="title"
+                required>
+            </div>
+            <div class="form-group">
+              <input 
+                type="number" 
+                placeholder="Amount" 
+                [(ngModel)]="expensesForm.amount" 
+                name="amount"
+                required>
+            </div>
+            <div class="form-group">
+              <select 
+                [(ngModel)]="expensesForm.category" 
+                name="category"
+                required>
+                <option value="">Select Category</option>
+                <option value="food">Food & Dining</option>
+                <option value="transport">Transportation</option>
+                <option value="shopping">Shopping</option>
+                <option value="entertainment">Entertainment</option>
+                <option value="bills">Bills & Utilities</option>
+                <option value="health">Health & Medical</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <input 
+                type="date" 
+                [(ngModel)]="expensesForm.date" 
+                name="date"
+                required>
+            </div>
+            <div class="form-group">
+              <textarea 
+                placeholder="Note" 
+                [(ngModel)]="expensesForm.note" 
+                name="note"
+                rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn-submit" [disabled]="!expensesFormRef.form.valid">
+              Add Expenses
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Tax Card -->
+      <div class="card" [class.active]="showTaxForm">
+        <div class="card-header" (click)="toggleTaxForm()">
+          <div class="card-icon">
+            <img src="/imgs/dash3.png" alt="">
+          </div>
+          <div class="card-content">
+            <h3>Tax</h3>
+            <p>Calculate and monitor your tax obligations to stay compliant and avoid surprises at the end of the year.</p>
+          </div>
+        </div>
+
+        <!-- Tax Form -->
+        <div class="form-container" *ngIf="showTaxForm">
+          <form (ngSubmit)="onCalculateTax()" #taxFormRef="ngForm">
+            <div class="form-group">
+              <input 
+                type="number" 
+                placeholder="Year" 
+                [(ngModel)]="taxForm.year" 
+                name="year"
+                min="2020"
+                max="2030"
+                required>
+            </div>
+            <div class="form-group">
+              <select 
+                [(ngModel)]="taxForm.month" 
+                name="month"
+                required>
+                <option value="">Select Month</option>
+                <option value="01">January</option>
+                <option value="02">February</option>
+                <option value="03">March</option>
+                <option value="04">April</option>
+                <option value="05">May</option>
+                <option value="06">June</option>
+                <option value="07">July</option>
+                <option value="08">August</option>
+                <option value="09">September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <input 
+                type="number" 
+                placeholder="Total Income" 
+                [(ngModel)]="taxForm.totalIncome" 
+                name="totalIncome"
+                step="0.01"
+                required>
+            </div>
+            <div class="form-group">
+              <input 
+                type="number" 
+                placeholder="Total Expenses" 
+                [(ngModel)]="taxForm.totalExpenses" 
+                name="totalExpenses"
+                step="0.01"
+                required>
+            </div>
+            <div class="form-group">
+              <input 
+                type="number" 
+                placeholder="Tax Amount" 
+                [(ngModel)]="taxForm.taxAmount" 
+                name="taxAmount"
+                step="0.01"
+                readonly>
+            </div>
+            <button type="submit" class="btn-submit" [disabled]="!taxFormRef.form.valid">
+              Calculate Tax
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
