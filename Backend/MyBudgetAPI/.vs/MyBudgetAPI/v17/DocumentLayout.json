@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{D4C6C747-3876-4BF4-A902-8B8912E81297}|MyBudgetAPI\\MyBudgetAPI.csproj|c:\\users\\user pc\\desktop\\mybudgetsystem\\backend\\mybudgetapi\\mybudgetapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4C6C747-3876-4BF4-A902-8B8912E81297}|MyBudgetAPI\\MyBudgetAPI.csproj|solutionrelative:mybudgetapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73FFD111-CB41-4A03-AF90-DAA79BDCEC24}|MyBudget.DAL\\MyBudget.DAL.csproj|c:\\users\\user pc\\desktop\\mybudgetsystem\\backend\\mybudgetapi\\mybudget.dal\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73FFD111-CB41-4A03-AF90-DAA79BDCEC24}|MyBudget.DAL\\MyBudget.DAL.csproj|solutionrelative:mybudget.dal\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,34 +9,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Expense.cs",
-              "DocumentMoniker": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\Models\\Expense.cs",
-              "RelativeDocumentMoniker": "MyBudget.DAL\\Models\\Expense.cs",
-              "ToolTip": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\Models\\Expense.cs",
-              "RelativeToolTip": "MyBudget.DAL\\Models\\Expense.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T09:10:34.77Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\Program.cs",
-              "RelativeDocumentMoniker": "MyBudgetAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\Program.cs",
-              "RelativeToolTip": "MyBudgetAPI\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T09:09:23.339Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
