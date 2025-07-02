@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="./assets/mybudget-logo.png" alt="My Budget Logo" width="250" />
+  <img src="./assets/mybudget-logo.png" alt="My Budget Logo" width="250" style="border-radius: 50%;" />
 </p>
+
 
 
 # 💰 My Budget "ميزانيتي"
