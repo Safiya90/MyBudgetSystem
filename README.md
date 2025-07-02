@@ -55,5 +55,4 @@ This system aims to assist users in understanding their tax liability status wit
 | Diagrams          | [ERDPlus](https://erdplus.com)             |
 | Frontend          | Angular                                     |
 | Backend           | ASP.NET Core Web API                        |
-| ORM Library       | Entity Framework Core (EF Core)            |
-| Identity System   | ASP.NET Core Identity (latest version)     |
+
