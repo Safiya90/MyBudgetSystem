@@ -23,10 +23,16 @@ namespace MyBudgetAPI
             builder.Services.AddSwaggerGen();
 
             builder.Services.AddControllersWithViews();
+
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+
+
             builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             builder.Services.AddScoped<IIncomeRpository, IncomeRepository>();
+
+
 
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>(
                options =>
@@ -46,6 +52,9 @@ namespace MyBudgetAPI
                )
                .AddEntityFrameworkStores<ApplicationDbContext>();
 
+
+            builder.Services.AddAuthentication();
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -55,6 +64,7 @@ namespace MyBudgetAPI
                 app.UseSwaggerUI();
             }
 
+                
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
