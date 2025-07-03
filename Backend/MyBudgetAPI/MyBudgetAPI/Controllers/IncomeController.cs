@@ -19,10 +19,10 @@ namespace MyBudgetAPI.Controllers
     {
 
         private readonly IIncomeRpository _incomeRepository;
-        // --- 2. أضف متغيرًا للـ DbContext ---
+      
         private readonly MyBudgetAPI.Context.ApplicationDbContext _context;
 
-        // --- 3. قم بتعديل الـ Constructor ليقبل الـ DbContext ---
+
         public IncomeController(IIncomeRpository incomeRepository, MyBudgetAPI.Context.ApplicationDbContext context)
         {
             _incomeRepository = incomeRepository;
@@ -41,15 +41,14 @@ namespace MyBudgetAPI.Controllers
         //Only fetches income records of logged in user!
       // GET: api/income/{id}
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetById(string id) // <-- غيرنا النوع إلى string
+        public async Task<IActionResult> GetById(string id) 
         {
-            // بدلاً من استخدام المستودع، نبحث مباشرة ونتأكد من الملكية في خطوة واحدة
+          
             var income = await _context.Incomes
                 .FirstOrDefaultAsync(i => i.Id == id && i.UserId == GetCurrentUserId());
 
             if (income == null)
             {
-                // هذه الرسالة الآن أكثر دقة: إما غير موجود أو ليس ملكك
                 return NotFound("Income not found or you do not have permission.");
             }
 

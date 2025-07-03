@@ -24,6 +24,8 @@ namespace MyBudgetAPI
             builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             builder.Services.AddScoped<IIncomeRpository, IncomeRepository>();
             builder.Services.AddScoped<IExpenseRepository, ExpenseRepository>();
+            builder.Services.AddScoped<ITaxRecordRepository, TaxRecordRepository>(); 
+
 
 
             builder.Services.AddCors(options =>

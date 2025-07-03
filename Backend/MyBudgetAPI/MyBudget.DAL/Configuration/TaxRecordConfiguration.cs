@@ -14,25 +14,37 @@ namespace MyBudget.DAL.Configuration
     {
         public void Configure(EntityTypeBuilder<TaxRecord> builder)
         {
-            builder.Property(t => t.Year)
+            builder.HasKey(tr => tr.Id);
+            // أزل ValueGeneratedOnAdd() إذا كنت تولد الـ Id في C#
+            // builder.Property(tr => tr.Id).ValueGeneratedOnAdd();
+
+            builder.Property(tr => tr.Year)
                 .IsRequired();
 
-            builder.Property(t => t.Month)
+            builder.Property(tr => tr.Month)
                 .IsRequired();
 
-            builder.Property(t => t.TotalIncome)
-                .HasColumnType("decimal(18,2)");
+            builder.Property(tr => tr.TotalIncome)
+                .HasColumnType("decimal(18,2)")
+                .IsRequired();
 
-            builder.Property(t => t.TotalExpense)
-                .HasColumnType("decimal(18,2)");
+            builder.Property(tr => tr.TotalExpense)
+                .HasColumnType("decimal(18,2)")
+                .IsRequired();
 
-            builder.Property(t => t.TaxAmount)
-                .HasColumnType("decimal(18,2)");
+            // لا يوجد تكوين لـ NetIncome أو CalculationDate هنا
 
-            builder.HasOne(t => t.User)
+            builder.Property(tr => tr.TaxAmount)
+                .HasColumnType("decimal(18,2)")
+                .IsRequired();
+
+            builder.HasOne(tr => tr.User)
                 .WithMany()
-                .HasForeignKey(t => t.UserId)
+                .HasForeignKey(tr => tr.UserId)
                 .OnDelete(DeleteBehavior.Cascade);
+
+            builder.HasIndex(tr => new { tr.UserId, tr.Year }).IsUnique();
         }
     }
 }
+    

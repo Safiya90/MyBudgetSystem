@@ -73,7 +73,7 @@ namespace MyBudgetAPI.Controllers
                 model.Password,
                 model.RememberMe,
                 lockoutOnFailure: true  // system will let you try few times then it will lock 
-            );
+            );  // it will create cookie 
 
             if (!result.Succeeded)
                 return Unauthorized("Invalid login attempt");
@@ -89,7 +89,7 @@ namespace MyBudgetAPI.Controllers
         [Authorize]  // you should be login to do  logout
         public async Task<IActionResult> Logout()
         {
-            await _signInManager.SignOutAsync();  // delete the cookies and stop the session 
+            await _signInManager.SignOutAsync();  // delete the cookies and stop the session after logout 
 
             return Ok("Logged out successfully");
         }

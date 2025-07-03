@@ -1,79 +1,102 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MyBudget.BLL.Interface;
 using MyBudgetAPI.Models;
+using MyBudgetSystem.Data.Repositories;
+using System.Security.Claims;
 
 namespace MyBudgetAPI.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
-    public class TaxRecordController : ControllerBase
+    public class TaxController : ControllerBase
     {
-        // This holds a reference to the repository that handles tax record data.
-        private readonly IGenericRepository<TaxRecord> _taxRecordRepository;
+        private readonly IIncomeRpository _incomeRepo;
+        private readonly IExpenseRepository _expenseRepo;
 
-        // The repository is injected here when the controller is created.
-        public TaxRecordController(IGenericRepository<TaxRecord> taxRecordRepository)
+        public TaxController(IIncomeRpository incomeRepo, IExpenseRepository expenseRepo)
         {
-            _taxRecordRepository = taxRecordRepository;
+            _incomeRepo = incomeRepo;
+            _expenseRepo = expenseRepo;
         }
 
-        // GET: api/TaxRecord
-        // Gets a list of all tax records.
-        [HttpGet]
-        public async Task<IActionResult> GetTaxRecords()
+        private string GetCurrentUserId()
         {
-            var taxRecords = await _taxRecordRepository.GetAllAsync();
-            return Ok(taxRecords);
+            return User.FindFirstValue(ClaimTypes.NameIdentifier);
         }
 
-        //// GET: api/TaxRecord/{id}
-        //// Gets a single tax record by its unique ID.
-        //[HttpGet("{id}")]
-        //public async Task<IActionResult> GetTaxRecord(string id)
-        //{
-        //    var taxRecord = await _taxRecordRepository.GetByIdAsync(id);
-        //    if (taxRecord == null)
-        //    {
-        //        return NotFound();
-        //    }
-        //    return Ok(taxRecord);
-        //}
+        // GET: api/Tax/annual-summary
+        [HttpGet("annual-summary")]
+        public async Task<IActionResult> GetAnnualSummaryAndTax()
+        {
+            var userId = GetCurrentUserId();
 
-        //// POST: api/TaxRecord
-        //// Creates a new tax record from the data in the request body.
-        //[HttpPost]
-        //public async Task<IActionResult> CreateTaxRecord([FromBody] TaxRecord taxRecord)
-        //{
-        //    await _taxRecordRepository.AddAsync(taxRecord);
-        //    return CreatedAtAction(nameof(GetTaxRecord), new { id = taxRecord.id }, taxRecord);
-        //}
+            //get data 
+            var allIncomes = await _incomeRepo.GetIncomesByUserIdAsync(userId);
+            var allExpenses = await _expenseRepo.GetExpensesByUserIdAsync(userId);
 
-        //// PUT: api/TaxRecord/{id}
-        //// Updates an existing tax record.
-        //[HttpPut("{id}")]
-        //public async Task<IActionResult> UpdateTaxRecord(string id, [FromBody] TaxRecord taxRecord)
-        //{
-        //    if (id != taxRecord.id)
-        //    {
-        //        return BadRequest("ID in URL does not match ID in body.");
-        //    }
-        //    _taxRecordRepository.Update(taxRecord);
-        //    return NoContent();
-        //}
+            //for year 
+            var oneYearAgo = DateTime.UtcNow.AddDays(-365);
 
-        //// DELETE: api/TaxRecord/{id}
-        //// Deletes a tax record by its ID.
-        //[HttpDelete("{id}")]
-        //public async Task<IActionResult> DeleteTaxRecord(string id)
-        //{
-        //    var taxRecordToDelete = await _taxRecordRepository.GetByIdAsync(id);
-        //    if (taxRecordToDelete == null)
-        //    {
-        //        return NotFound();
-        //    }
-        //    _taxRecordRepository.Delete(taxRecordToDelete);
-        //    return NoContent();
-        //}
+            //Filter the data to include only the last year 
+            var incomesInLastYear = allIncomes.Where(i => i.DateReceived >= oneYearAgo);
+            var expensesInLastYear = allExpenses.Where(e => e.DateIncurred >= oneYearAgo);
+
+            // Calculate totals based on filtered data 
+            var totalIncomeLastYear = incomesInLastYear.Sum(i => i.Amount);
+            var totalExpensesLastYear = expensesInLastYear.Sum(e => e.Amount);
+            var netBalanceLastYear = totalIncomeLastYear - totalExpensesLastYear;
+
+            // for the tax 
+            const decimal TAX_THRESHOLD = 42000m; // Annual income limit
+            const decimal TAX_RATE = 0.05m;      // 5% 
+            decimal taxDue = 0;
+            bool isTaxable = false;
+            string taxMessage; 
+
+            // check if 
+            if (totalIncomeLastYear >= TAX_THRESHOLD)
+            {
+                isTaxable = true;
+             
+                decimal taxableAmount = totalIncomeLastYear - TAX_THRESHOLD;
+                taxDue = taxableAmount * TAX_RATE;
+                taxMessage = $"Your annual income of {totalIncomeLastYear:C} exceeds the threshold. A tax of {taxDue:C} is applicable.";
+            }
+            else
+            {
+                isTaxable = false;
+                //for no tax 
+                taxMessage = $"Your annual income of {totalIncomeLastYear:C} is below the {TAX_THRESHOLD:C} threshold. You are not required to pay tax.";
+            }
+
+            //disply 
+            var result = new
+            {
+                Period = new
+                {
+                    StartDate = oneYearAgo.ToString("yyyy-MM-dd"),
+                    EndDate = DateTime.UtcNow.ToString("yyyy-MM-dd")
+                },
+                AnnualSummary = new
+                {
+                    TotalIncome = totalIncomeLastYear,
+                    TotalExpenses = totalExpensesLastYear,
+                    NetBalance = netBalanceLastYear
+                },
+                TaxDetails = new
+                {
+                    IsTaxable = isTaxable,
+                    Message = taxMessage, 
+                    IncomeThreshold = TAX_THRESHOLD,
+                    TaxRate = $"{TAX_RATE:P0}", // "5%"
+                    TaxDue = taxDue
+                }
+            };
+
+            return Ok(result);
+        }
     }
 }
