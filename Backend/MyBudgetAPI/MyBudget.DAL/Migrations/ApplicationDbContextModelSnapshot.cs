@@ -231,7 +231,7 @@ namespace MyBudget.DAL.Migrations
 
             modelBuilder.Entity("MyBudgetAPI.Models.Expense", b =>
                 {
-                    b.Property<string>("id")
+                    b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<decimal>("Amount")
@@ -262,7 +262,7 @@ namespace MyBudget.DAL.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
-                    b.HasKey("id");
+                    b.HasKey("Id");
 
                     b.HasIndex("ApplicationUserId");
 
@@ -273,7 +273,7 @@ namespace MyBudget.DAL.Migrations
 
             modelBuilder.Entity("MyBudgetAPI.Models.Income", b =>
                 {
-                    b.Property<string>("id")
+                    b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<decimal>("Amount")
@@ -304,7 +304,7 @@ namespace MyBudget.DAL.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
-                    b.HasKey("id");
+                    b.HasKey("Id");
 
                     b.HasIndex("ApplicationUserId");
 
@@ -315,7 +315,7 @@ namespace MyBudget.DAL.Migrations
 
             modelBuilder.Entity("MyBudgetAPI.Models.TaxRecord", b =>
                 {
-                    b.Property<string>("id")
+                    b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("ApplicationUserId")
@@ -340,7 +340,7 @@ namespace MyBudget.DAL.Migrations
                     b.Property<int>("Year")
                         .HasColumnType("int");
 
-                    b.HasKey("id");
+                    b.HasKey("Id");
 
                     b.HasIndex("ApplicationUserId");
 

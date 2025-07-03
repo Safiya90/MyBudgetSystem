@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\MyBudgetAPI.csproj": {}
+    "C:\\Users\\user pc\\Desktop\\BudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\MyBudgetAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\MyBudget.BLL.csproj": {
+    "C:\\Users\\user pc\\Desktop\\BudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\MyBudget.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\MyBudget.BLL.csproj",
+        "projectUniqueName": "C:\\Users\\user pc\\Desktop\\BudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\MyBudget.BLL.csproj",
         "projectName": "MyBudget.BLL",
-        "projectPath": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\MyBudget.BLL.csproj",
-        "packagesPath": "C:\\Users\\USER PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\obj\\",
+        "projectPath": "C:\\Users\\user pc\\Desktop\\BudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\MyBudget.BLL.csproj",
+        "packagesPath": "C:\\Users\\user pc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user pc\\Desktop\\BudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\USER PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\MyBudget.DAL.csproj": {
-                "projectPath": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\MyBudget.DAL.csproj"
+              "C:\\Users\\user pc\\Desktop\\BudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\MyBudget.DAL.csproj": {
+                "projectPath": "C:\\Users\\user pc\\Desktop\\BudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\MyBudget.DAL.csproj"
               }
             }
           }
@@ -48,7 +48,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -75,24 +75,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\MyBudget.DAL.csproj": {
+    "C:\\Users\\user pc\\Desktop\\BudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\MyBudget.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\MyBudget.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\user pc\\Desktop\\BudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\MyBudget.DAL.csproj",
         "projectName": "MyBudget.DAL",
-        "projectPath": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\MyBudget.DAL.csproj",
-        "packagesPath": "C:\\Users\\USER PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\obj\\",
+        "projectPath": "C:\\Users\\user pc\\Desktop\\BudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\MyBudget.DAL.csproj",
+        "packagesPath": "C:\\Users\\user pc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user pc\\Desktop\\BudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\USER PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -119,7 +119,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -158,24 +158,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\MyBudgetAPI.csproj": {
+    "C:\\Users\\user pc\\Desktop\\BudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\MyBudgetAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\MyBudgetAPI.csproj",
+        "projectUniqueName": "C:\\Users\\user pc\\Desktop\\BudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\MyBudgetAPI.csproj",
         "projectName": "MyBudgetAPI",
-        "projectPath": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\MyBudgetAPI.csproj",
-        "packagesPath": "C:\\Users\\USER PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\obj\\",
+        "projectPath": "C:\\Users\\user pc\\Desktop\\BudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\MyBudgetAPI.csproj",
+        "packagesPath": "C:\\Users\\user pc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user pc\\Desktop\\BudgetSystem\\Backend\\MyBudgetAPI\\MyBudgetAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\USER PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -190,8 +190,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\MyBudget.BLL.csproj": {
-                "projectPath": "C:\\Users\\USER PC\\Desktop\\MyBudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\MyBudget.BLL.csproj"
+              "C:\\Users\\user pc\\Desktop\\BudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\MyBudget.BLL.csproj": {
+                "projectPath": "C:\\Users\\user pc\\Desktop\\BudgetSystem\\Backend\\MyBudgetAPI\\MyBudget.BLL\\MyBudget.BLL.csproj"
               }
             }
           }
@@ -206,12 +206,16 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.17, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.17, )"
@@ -254,7 +258,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

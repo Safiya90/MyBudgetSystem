@@ -7,9 +7,16 @@ using MyBudgetAPI.Models;
 
 namespace MyBudget.BLL.Interface
 {
+   
+
+ 
     public interface IIncomeRpository : IGenericRepository<Income>
     {
-        Task<decimal> GetTotalIncomeByMonthAsync(int month, int year);
+ 
 
+        
+        Task<IEnumerable<Income>> GetIncomesByUserIdAsync(string userId);
+
+        Task<decimal> GetTotalIncomeByMonthAsync(int month, int year);
     }
 }

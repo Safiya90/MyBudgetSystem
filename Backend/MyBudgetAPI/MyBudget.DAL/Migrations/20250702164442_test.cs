@@ -5,7 +5,7 @@
 namespace MyBudget.DAL.Migrations
 {
     /// <inheritdoc />
-    public partial class TableNames : Migration
+    public partial class test : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -58,6 +58,11 @@ namespace MyBudget.DAL.Migrations
                 name: "Expense",
                 newName: "Expenses");
 
+            migrationBuilder.RenameColumn(
+                name: "id",
+                table: "TaxRecords",
+                newName: "Id");
+
             migrationBuilder.RenameIndex(
                 name: "IX_TaxRecord_UserId",
                 table: "TaxRecords",
@@ -68,6 +73,11 @@ namespace MyBudget.DAL.Migrations
                 table: "TaxRecords",
                 newName: "IX_TaxRecords_ApplicationUserId");
 
+            migrationBuilder.RenameColumn(
+                name: "id",
+                table: "Incomes",
+                newName: "Id");
+
             migrationBuilder.RenameIndex(
                 name: "IX_Income_UserId",
                 table: "Incomes",
@@ -77,6 +87,11 @@ namespace MyBudget.DAL.Migrations
                 name: "IX_Income_ApplicationUserId",
                 table: "Incomes",
                 newName: "IX_Incomes_ApplicationUserId");
+
+            migrationBuilder.RenameColumn(
+                name: "id",
+                table: "Expenses",
+                newName: "Id");
 
             migrationBuilder.RenameIndex(
                 name: "IX_Expense_UserId",
@@ -91,17 +106,17 @@ namespace MyBudget.DAL.Migrations
             migrationBuilder.AddPrimaryKey(
                 name: "PK_TaxRecords",
                 table: "TaxRecords",
-                column: "id");
+                column: "Id");
 
             migrationBuilder.AddPrimaryKey(
                 name: "PK_Incomes",
                 table: "Incomes",
-                column: "id");
+                column: "Id");
 
             migrationBuilder.AddPrimaryKey(
                 name: "PK_Expenses",
                 table: "Expenses",
-                column: "id");
+                column: "Id");
 
             migrationBuilder.AddForeignKey(
                 name: "FK_Expenses_AspNetUsers_ApplicationUserId",
@@ -200,6 +215,11 @@ namespace MyBudget.DAL.Migrations
                 name: "Expenses",
                 newName: "Expense");
 
+            migrationBuilder.RenameColumn(
+                name: "Id",
+                table: "TaxRecord",
+                newName: "id");
+
             migrationBuilder.RenameIndex(
                 name: "IX_TaxRecords_UserId",
                 table: "TaxRecord",
@@ -210,6 +230,11 @@ namespace MyBudget.DAL.Migrations
                 table: "TaxRecord",
                 newName: "IX_TaxRecord_ApplicationUserId");
 
+            migrationBuilder.RenameColumn(
+                name: "Id",
+                table: "Income",
+                newName: "id");
+
             migrationBuilder.RenameIndex(
                 name: "IX_Incomes_UserId",
                 table: "Income",
@@ -219,6 +244,11 @@ namespace MyBudget.DAL.Migrations
                 name: "IX_Incomes_ApplicationUserId",
                 table: "Income",
                 newName: "IX_Income_ApplicationUserId");
+
+            migrationBuilder.RenameColumn(
+                name: "Id",
+                table: "Expense",
+                newName: "id");
 
             migrationBuilder.RenameIndex(
                 name: "IX_Expenses_UserId",
