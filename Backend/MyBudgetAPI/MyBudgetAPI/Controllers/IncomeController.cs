@@ -82,8 +82,8 @@ namespace MyBudgetAPI.Controllers
 
 
 
-        // GET: api/Income
-        [HttpGet]
+        // GET: Allapi/Incomes 
+        [HttpGet("GetMyIncomes")]
         public async Task<IActionResult> GetMyIncomes()
         {
             var userId = GetCurrentUserId();
