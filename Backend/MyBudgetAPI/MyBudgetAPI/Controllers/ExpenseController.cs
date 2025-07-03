@@ -1,79 +1,117 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using MyBudget.BLL.DTOs;
 using MyBudget.BLL.Interface;
 using MyBudgetAPI.Models;
+using System.Security.Claims;
 
 namespace MyBudgetAPI.Controllers
 {
+    [Authorize] 
     [Route("api/[controller]")]
     [ApiController]
-    public class ExpenseController : ControllerBase
+    public class ExpensesController : ControllerBase
     {
-        // This holds a reference to the repository that handles expense data.
-        private readonly IGenericRepository<Expense> _expenseRepository;
+        private readonly IExpenseRepository _expenseRepo;
 
-        // The repository is injected here when the controller is created.
-        public ExpenseController(IGenericRepository<Expense> expenseRepository)
+        public ExpensesController(IExpenseRepository expenseRepo)
         {
-            _expenseRepository = expenseRepository;
+            _expenseRepo = expenseRepo;
         }
 
-        // GET: api/Expense
-        // Gets a list of all expense records.
-        [HttpGet]
-        public async Task<IActionResult> GetExpenses()
+        // this help us to get user saftly 
+        private string GetCurrentUserId()
         {
-            var expenses = await _expenseRepository.GetAllAsync();
+            return User.FindFirstValue(ClaimTypes.NameIdentifier);
+        }
+
+        // GET: api/Expenses
+        [HttpGet]
+        public async Task<IActionResult> GetMyExpenses()
+        {
+            var userId = GetCurrentUserId();
+            var expenses = await _expenseRepo.GetExpensesByUserIdAsync(userId);
             return Ok(expenses);
         }
 
-        // GET: api/Expense/{id}
-        // Gets a single expense record by its unique ID.
+        // GET: api/Expenses/{id}
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetExpense(string id)
+        public async Task<IActionResult> GetById(string id) 
         {
-            var expense = await _expenseRepository.GetByIdAsync(id);
-            if (expense == null)
+            var expense = await _expenseRepo.GetByIdAsync(id);
+
+            if (expense == null || expense.UserId != GetCurrentUserId())
             {
-                return NotFound();
+                return NotFound("Expense not found or you do not have permission.");
             }
             return Ok(expense);
         }
 
-        // POST: api/Expense
-        // Creates a new expense record from the data in the request body.
+        // POST: api/Expenses
+
+        //add new 
         [HttpPost]
-        public async Task<IActionResult> CreateExpense([FromBody] Expense expense)
+        public async Task<IActionResult> Create([FromBody] ExpenseDto model)
         {
-            await _expenseRepository.AddAsync(expense);
-            return CreatedAtAction(nameof(GetExpense), new { id = expense.Id }, expense);
+            if (!ModelState.IsValid) return BadRequest(ModelState);
+
+            var userId = GetCurrentUserId();
+            var expense = new Expense
+            {
+                Title = model.Title,
+                Amount = model.Amount,
+                Category = model.Category,
+                DateIncurred = model.DateIncurred,
+                Note = model.Note,
+                UserId = userId 
+            };
+
+            await _expenseRepo.AddAsync(expense);
+            return CreatedAtAction(nameof(GetById), new { id = expense.Id }, expense);
         }
 
-        // PUT: api/Expense/{id}
-        // Updates an existing expense record.
+        // PUT: api/Expenses/{id}
+        //update if its created by user
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateExpense(string id, [FromBody] Expense expense)
+        public async Task<IActionResult> Update(string id, [FromBody] ExpenseDto model)
         {
-            if (id != expense.Id)
+            if (!ModelState.IsValid) return BadRequest(ModelState);
+
+            var expenseToUpdate = await _expenseRepo.GetByIdAsync(id);
+
+            if (expenseToUpdate == null || expenseToUpdate.UserId != GetCurrentUserId())
             {
-                return BadRequest("ID in URL does not match ID in body.");
+                return NotFound("Expense not found or you do not have permission to update it.");
             }
-            _expenseRepository.Update(expense);
+
+            expenseToUpdate.Title = model.Title;
+            expenseToUpdate.Amount = model.Amount;
+            expenseToUpdate.Category = model.Category;
+            expenseToUpdate.DateIncurred = model.DateIncurred;
+            expenseToUpdate.Note = model.Note;
+
+            _expenseRepo.Update(expenseToUpdate);
+
             return NoContent();
         }
 
-        // DELETE: api/Expense/{id}
-        // Deletes an expense record by its ID.
+        // DELETE: api/Expenses/{id}
+        // delete if its created by user
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteExpense(string id)
+        public async Task<IActionResult> Delete(string id)
         {
-            var expenseToDelete = await _expenseRepository.GetByIdAsync(id);
-            if (expenseToDelete == null)
+            var expenseToDelete = await _expenseRepo.GetByIdAsync(id);
+
+            if (expenseToDelete == null || expenseToDelete.UserId != GetCurrentUserId())
             {
-                return NotFound();
+                return NotFound("Expense not found or you do not have permission to delete it.");
             }
-            _expenseRepository.Delete(expenseToDelete);
+
+            _expenseRepo.Delete(expenseToDelete);
+
             return NoContent();
         }
     }
+
 }

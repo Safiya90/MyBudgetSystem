@@ -13,6 +13,13 @@ namespace MyBudget.DAL.Configuration
     {
         public void Configure(EntityTypeBuilder<Expense> builder)
         {
+            builder.HasKey(e => e.Id);
+
+       
+            builder.Property(e => e.Id)
+                   .ValueGeneratedOnAdd();
+
+
             builder.Property(e => e.Title)
                 .IsRequired()
                 .HasMaxLength(100);
@@ -29,10 +36,11 @@ namespace MyBudget.DAL.Configuration
             builder.Property(e => e.Note)
                 .HasMaxLength(500);
 
+            //  relationship to the User table.
             builder.HasOne(e => e.User)
-                .WithMany()
+                .WithMany() 
                 .HasForeignKey(e => e.UserId)
-                .OnDelete(DeleteBehavior.Cascade);
+                .OnDelete(DeleteBehavior.Cascade); 
         }
     }
 }

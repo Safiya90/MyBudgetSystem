@@ -10,21 +10,19 @@ using MyBudgetAPI.Models;
 
 namespace MyBudget.BLL.Repository
 {
-     public class ExpenseRepository : GenericRepository<Expense>, IExpenseRepository
+    public class ExpenseRepository : GenericRepository<Expense>, IExpenseRepository
     {
-        private readonly ApplicationDbContext _context;
-
         public ExpenseRepository(ApplicationDbContext context) : base(context)
         {
-            _context = context;
         }
 
-        public async Task<decimal> GetTotalIncomeByMonthAsync(int month, int year)
+        // to get user Expense 
+        public async Task<IEnumerable<Expense>> GetExpensesByUserIdAsync(string userId)
         {
-            return await _context.Incomes
-                .Where(i => i.DateReceived.Month == month && i.DateReceived.Year == year)
-                .SumAsync(i => i.Amount);
-
+            return await _context.Expenses
+                .Where(e => e.UserId == userId)
+                .OrderByDescending(e => e.DateIncurred)
+                .ToListAsync();
         }
     }
 }

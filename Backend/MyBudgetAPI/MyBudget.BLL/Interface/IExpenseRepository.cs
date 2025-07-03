@@ -7,9 +7,13 @@ using MyBudgetAPI.Models;
 
 namespace MyBudget.BLL.Interface
 {
+    // it inheriths all this methods : GetById, Add, Update, Delete 
     public interface IExpenseRepository : IGenericRepository<Expense>
     {
-        Task<decimal> GetTotalIncomeByMonthAsync(int month, int year);
+        //Task<decimal> GetTotalIncomeByMonthAsync(int month, int year);
+
+        Task<IEnumerable<Expense>> GetExpensesByUserIdAsync(string userId);
+
 
     }
 }
